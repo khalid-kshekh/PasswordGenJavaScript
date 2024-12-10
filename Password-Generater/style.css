@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+ background-color: bisque;
+
+}
+ 
+.box{
+    width: 340px;
+    padding: 20px 10px;
+    margin: auto;
+    border: 2px solid rgb(8, 8, 8);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 50px;
+     flex-direction: column;
+     margin-top: 35px;
+      border-radius: 4px;
+ }
+ .box-1{
+    border: 2px solid black;
+    width: 280px;
+    padding-left: 3px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .box-1 p{
+   cursor: pointer;
+   font-size: 2rem;
+ }
+ .box-1 h1{
+    font-size: 1.2rem;
+ }
+ .box-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .box-2 p{
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+ }
+ #range{
+    width: 280px;
+    cursor: pointer;
+    
+ }
+ #range-handing{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .box-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+ }
+ .group{
+    font-size: 1rem;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+ }
+ .check{
+    cursor: pointer;
+ }
+ #btn{
+    width: 280px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+
+ }
+ #btn:hover{
+    transform: scale(.9);
+    transition: 1s ease-in-out;
+ }
